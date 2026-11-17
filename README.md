@@ -1,6 +1,10 @@
 # claude-hooks
 
 <p align="center">
+  <img src="docs/images/icon.svg" width="96" height="96" alt="claude-hooks icon: a hook hanging from a ring">
+</p>
+
+<p align="center">
   <strong>One place for every AnnihilationWizard hook.</strong><br>
   A Claude Code plugin marketplace: add it once, then install the hooks you want.
 </p>
@@ -25,7 +29,7 @@ Each hook lives in its own repository, with its own version, changelog and issue
 
 | Hook | What it does |
 | --- | --- |
-| [reply-language](https://github.com/AnnihilationWizard/reply-language) | Sends a reply written mostly in English back to Claude to rewrite in Traditional Chinese |
+| <img src="https://raw.githubusercontent.com/AnnihilationWizard/reply-language/main/docs/images/icon.svg" width="20" height="20" alt=""> [reply-language](https://github.com/AnnihilationWizard/reply-language) | Sends a reply written mostly in English back to Claude to rewrite in Traditional Chinese |
 
 ### reply-language
 
@@ -102,6 +106,7 @@ A hook's update reaches users only when its `version` in `.claude-plugin/plugin.
 
 ```text
 .claude-plugin/   marketplace.json, the catalog of hooks
+docs/images/      README icon
 README.md         this page
 LICENSE           MIT License
 ```
