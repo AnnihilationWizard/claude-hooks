@@ -1,0 +1,5 @@
+# Each hook is its own Git repository; this repo only lists them
+/reply-language/
+
+.claude/
+.DS_Store

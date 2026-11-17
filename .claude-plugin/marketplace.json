@@ -1,0 +1,16 @@
+{
+  "name": "claude-hooks",
+  "description": "Claude Code hooks by AnnihilationWizard",
+  "version": "1.0.0",
+  "owner": {
+    "name": "AnnihilationWizard",
+    "url": "https://github.com/AnnihilationWizard"
+  },
+  "plugins": [
+    {
+      "name": "reply-language",
+      "description": "Stop hook that sends a reply written mostly in English back to Claude to rewrite in Traditional Chinese (Taiwan)",
+      "source": { "source": "url", "url": "https://github.com/AnnihilationWizard/reply-language.git" }
+    }
+  ]
+}
